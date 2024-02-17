@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useFirebase } from "../context/Firebase";
+import { useFirebase } from "../../context/Firebase";
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
